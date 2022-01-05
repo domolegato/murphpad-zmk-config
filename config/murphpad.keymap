@@ -62,7 +62,7 @@
 		default_layer {
 		label = "default layer";
             bindings = <
-                &bt BT_CLR       &kp ESC      &kp F5          &kp kp BSPC       &kp LG(D)   
+                &bt BT_CLR       &kp ESC      &kp F5          &kp BSPC          &kp LG(D)   
                 &rgb_ug RGB_TOG  &kp KP_NUM   &kp KP_DIVIDE   &kp KP_MULTIPLY   &kp KP_MINUS    
                 &rgb_ug RGB_EFF  &kp KP_N7    &kp KP_N8       &kp KP_N9         &kp KP_PLUS   
                 &kp C_MUTE       &kp KP_N4    &kp KP_N5       &kp KP_N6         &trans

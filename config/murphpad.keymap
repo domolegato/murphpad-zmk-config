@@ -62,14 +62,14 @@
 		default_layer {
 		label = "default layer";
             bindings = <
-                &bt BT_CLR       &kp ESC      &kp PSCRN       &kp BSPC          &rgb_ug RGB_TOG   
+                &bt BT_CLR       &kp ESC      &kp LC(LS(S))   &kp BSPC          &rgb_ug RGB_TOG   
                 &rgb_ug RGB_TOG  &kp KP_NUM   &kp KP_DIVIDE   &kp KP_MULTIPLY   &kp KP_MINUS    
                 &rgb_ug RGB_EFF  &kp KP_N7    &kp KP_N8       &kp KP_N9         &kp KP_PLUS   
                 &kp C_MUTE       &kp KP_N4    &kp KP_N5       &kp KP_N6         &trans
                 &mo 1            &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_ENTER
                 &trans           &kp KP_N0    &trans          &kp KP_DOT        &trans
             >;
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_rgb_ug RGB_BRI RGB_BRD>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RGB_BRI RGB_BRD>;
 
         }; 
 

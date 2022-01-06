@@ -62,26 +62,26 @@
 		default_layer {
 		label = "default layer";
             bindings = <
-                &bt BT_CLR       &kp ESC      &kp F5          &kp BSPC          &kp LG(D)   
+                &bt BT_CLR       &kp ESC      &kp PSCRN       &kp BSPC          &rgb_ug RGB_TOG   
                 &rgb_ug RGB_TOG  &kp KP_NUM   &kp KP_DIVIDE   &kp KP_MULTIPLY   &kp KP_MINUS    
                 &rgb_ug RGB_EFF  &kp KP_N7    &kp KP_N8       &kp KP_N9         &kp KP_PLUS   
                 &kp C_MUTE       &kp KP_N4    &kp KP_N5       &kp KP_N6         &trans
                 &mo 1            &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_ENTER
                 &trans           &kp KP_N0    &trans          &kp KP_DOT        &trans
             >;
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_rgb_ug RGB_BRI RGB_BRD>;
 
         }; 
 
         fn_layer {
 		label = "fn layer";
             bindings = <
-                &trans      &trans     &trans            &trans        &trans  
-                &trans      &trans     &trans            &trans        &trans     
-                &trans      &trans     &trans            &trans        &trans
-                &bt BT_CLR  &trans     &rgb_ug RGB_TOG   &trans        &trans    
-                &trans      &trans     &rgb_ug RGB_EFF   &trans        &trans
-                &kp DEL     &trans     &trans            &trans        &trans           
+                &trans      &trans              &trans            &trans             &trans  
+                &trans      &trans              &trans            &trans             &trans     
+                &trans      &rgb_ug RGB_HUI     &rgb_ug RGB_HUD   rgb_ug RGB_SAI     &trans
+                &bt BT_CLR  &rgb_ug RGB_BRI     &rgb_ug RGB_TOG   &rgb_ug RGB_SAD    &trans    
+                &trans      &rgb_ug RGB_BRD     &rgb_ug RGB_EFF   &rgb_ug RGB_EFR    &trans
+                &kp DEL     &trans              &trans            &trans             &trans           
             >;  
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
 

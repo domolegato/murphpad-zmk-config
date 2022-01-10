@@ -12,8 +12,8 @@
 #define TIMEOUT 300
 
 /* Layer Names*/
-#define DEFAULT 0
-#define FN      1
+define DEFAULT 0
+define FN      1
 
 
 &encoder_1 {
@@ -62,7 +62,7 @@
 		default_layer {
 		label = "default layer";
             bindings = <
-                &bt BT_CLR       &kp ESC      &kp LC(LS(S))   &kp BSPC          &rgb_ug RGB_TOG   
+                &bt BT_CLR       &kp ESC      &kp LWIN(LS(S))   &kp BSPC          &rgb_ug RGB_TOG   
                 &rgb_ug RGB_TOG  &kp KP_NUM   &kp KP_DIVIDE   &kp KP_MULTIPLY   &kp KP_MINUS    
                 &rgb_ug RGB_EFF  &kp KP_N7    &kp KP_N8       &kp KP_N9         &kp KP_PLUS   
                 &kp C_MUTE       &kp KP_N4    &kp KP_N5       &kp KP_N6         &trans
